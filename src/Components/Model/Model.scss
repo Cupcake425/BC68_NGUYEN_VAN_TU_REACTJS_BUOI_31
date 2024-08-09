@@ -1,0 +1,26 @@
+.model {
+  .model_img {
+    position: relative;
+    img {
+      width: 900px;
+      height: 600px;
+    }
+    .model_glasses {
+      position: absolute;
+      top: 150px;
+      left: 95px;
+      img {
+        width: 240px;
+        height: auto;
+        mix-blend-mode: multiply;
+      }
+    }
+    .model_info {
+      background-color: rgba(255, 166, 0, 0.39);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: white;
+    }
+  }
+}
